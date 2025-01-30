@@ -17,7 +17,7 @@ explore: metadata_analytics {
 }
 
 
-explore: events_stream_with_extras{
+explore: events_stream_with_extra {
   label: "Account Event"
   description: "Events stream with event_extras as dimensions"
   from: events_stream_with_extras
