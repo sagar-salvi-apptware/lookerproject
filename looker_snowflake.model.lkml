@@ -5,19 +5,19 @@ include: "/**/*.view"
 
 explore: customer_data {
   label: "Customer Data Snowflake Looker Test"
-  from: test_table
+  from: customer_data
 }
 
 
 explore: metadata_analytics {
   label: "Customer Data"
   description: " Provides an different analytics view on top of all entities"
-  from: test_table
+  from: metadata_analytics
   tags: ["metrics"]
 }
 
 
-explore: events_stream_with_extra {
+explore: events_stream_with_extras {
   label: "Account Event"
   description: "Events stream with event_extras as dimensions"
   from: events_stream_with_extras
