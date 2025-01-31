@@ -22,3 +22,8 @@ explore: events_stream_with_extra {
   description: "Events stream with event_extras as dimensions"
   from: events_stream_with_extras
 }
+
+explore: test_table {
+  label: "Looker Test with test table"
+  from: test_table
+}
